@@ -1,0 +1,29 @@
+{
+  "_client-uoQveROV.js": {
+    "file": "assets/client-uoQveROV.js",
+    "name": "client"
+  },
+  "resources/js/components/react-test-page/index.tsx": {
+    "file": "assets/index-BTIjcVS4.js",
+    "name": "index",
+    "src": "resources/js/components/react-test-page/index.tsx",
+    "isEntry": true,
+    "imports": [
+      "_client-uoQveROV.js"
+    ]
+  },
+  "resources/js/components/welcome-test-page/index.tsx": {
+    "file": "assets/index-C_HGcUjG.js",
+    "name": "index",
+    "src": "resources/js/components/welcome-test-page/index.tsx",
+    "isEntry": true,
+    "imports": [
+      "_client-uoQveROV.js"
+    ]
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-DIEaJtkm.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  }
+}
