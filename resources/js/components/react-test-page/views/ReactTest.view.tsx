@@ -32,11 +32,11 @@ export const ReactTestView: React.FC = () => {
   }
 
   return (
-    // <RoutesProvider>
+    <RoutesProvider>
       <Layout>
         <h1 className="text-center">React Test Page!</h1>
         <ReactTestComponent todos={todos} />
       </Layout>
-    // </RoutesProvider>
+    </RoutesProvider>
   );
 };

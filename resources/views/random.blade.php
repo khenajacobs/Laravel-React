@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>React Test Page</title>
+        <title>Laravel</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -13,13 +13,13 @@
 
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-            @vite(['resources/js/components/react-test-page/index.tsx'])
+            @vite(['resources/js/components/random-page/index.tsx'])
         @else
         @endif
     </head>
     <body>
         @include('components.header')
-        <div id="react-test"> </div>  
+        <div id="random">
+        </div>  
     </body>
-
 </html>

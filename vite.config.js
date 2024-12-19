@@ -9,6 +9,7 @@ export default defineConfig({
                 'resources/sass/app.scss',
                 'resources/js/components/welcome-test-page/index.tsx',
                 'resources/js/components/react-test-page/index.tsx',
+                'resources/js/components/random-page/index.tsx',
             ],
             refresh: true,
         }),

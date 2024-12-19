@@ -4,6 +4,7 @@ export interface Route {
 }
 
 export const routes: Route[] = [
-  { path: '/', name: 'Home' },
-  { path: '/copilot', name: 'Copilot' },
+  { path: '/random', name: 'Random View' },
+  { path: '/react-test', name: 'React Test' },
+  { path: '/welcome', name: 'Welcome' },
 ];
