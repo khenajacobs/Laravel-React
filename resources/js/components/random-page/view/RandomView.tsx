@@ -12,7 +12,7 @@ export const RandomView: React.FC = () => {
   };
 
   return (
-    <RoutesProvider>
+    // <RoutesProvider>
       <Layout>
         <div className="random-view p-4 bg-gray-100 rounded-lg shadow-md">
           <h1 className="text-center text-2xl font-bold mb-4">{t('randomView.title')}</h1>
@@ -24,8 +24,15 @@ export const RandomView: React.FC = () => {
           >
             {t('randomView.incrementButton')}
           </button>
+          {count >= 4 && (
+            <div className="random-content mt-4 p-4 bg-green-100 rounded-lg shadow-md">
+              <h2 className="text-center text-xl font-bold mb-2">{t('randomView.extraContentTitle')}</h2>
+              <p>{t('randomView.extraContentDescription')}</p>
+              {/* Add more content here as needed */}
+            </div>
+          )}
         </div>
       </Layout>
-    </RoutesProvider>
+    // </RoutesProvider>
   );
 };

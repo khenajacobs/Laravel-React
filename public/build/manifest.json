@@ -1,42 +1,42 @@
 {
-  "_Layout-C5F6MmGk.js": {
-    "file": "assets/Layout-C5F6MmGk.js",
+  "_Layout-Bs8QFDXl.js": {
+    "file": "assets/Layout-Bs8QFDXl.js",
     "name": "Layout"
   },
-  "_chunk-D52XG6IA-CXCJvOFj.js": {
-    "file": "assets/chunk-D52XG6IA-CXCJvOFj.js",
-    "name": "chunk-D52XG6IA",
+  "_RoutesContext-BZKrD9nE.js": {
+    "file": "assets/RoutesContext-BZKrD9nE.js",
+    "name": "RoutesContext",
     "imports": [
-      "_Layout-C5F6MmGk.js"
+      "_Layout-Bs8QFDXl.js"
     ]
   },
   "resources/js/components/random-page/index.tsx": {
-    "file": "assets/index-DQtg2N1v.js",
+    "file": "assets/index-CJl2Rj-G.js",
     "name": "index",
     "src": "resources/js/components/random-page/index.tsx",
     "isEntry": true,
     "imports": [
-      "_Layout-C5F6MmGk.js"
+      "_Layout-Bs8QFDXl.js"
     ]
   },
   "resources/js/components/react-test-page/index.tsx": {
-    "file": "assets/index-DutQJTB4.js",
+    "file": "assets/index-9oHvLgzU.js",
     "name": "index",
     "src": "resources/js/components/react-test-page/index.tsx",
     "isEntry": true,
     "imports": [
-      "_Layout-C5F6MmGk.js",
-      "_chunk-D52XG6IA-CXCJvOFj.js"
+      "_Layout-Bs8QFDXl.js",
+      "_RoutesContext-BZKrD9nE.js"
     ]
   },
   "resources/js/components/welcome-test-page/index.tsx": {
-    "file": "assets/index-DOsfLRBS.js",
+    "file": "assets/index-BGn5Ams-.js",
     "name": "index",
     "src": "resources/js/components/welcome-test-page/index.tsx",
     "isEntry": true,
     "imports": [
-      "_Layout-C5F6MmGk.js",
-      "_chunk-D52XG6IA-CXCJvOFj.js"
+      "_Layout-Bs8QFDXl.js",
+      "_RoutesContext-BZKrD9nE.js"
     ]
   },
   "resources/sass/app.scss": {
