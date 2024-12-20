@@ -7,9 +7,9 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/sass/app.scss',
-                'resources/js/components/welcome-test-page/index.tsx',
-                'resources/js/components/react-test-page/index.tsx',
-                'resources/js/components/random-page/index.tsx',
+                'resources/js/components/views/welcome-test-view/index.tsx',
+                'resources/js/components/views/react-test-view/index.tsx',
+                'resources/js/components/views/random-view/index.tsx',
             ],
             refresh: true,
         }),

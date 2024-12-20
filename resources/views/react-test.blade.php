@@ -13,7 +13,7 @@
 
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-            @vite(['resources/js/components/react-test-page/index.tsx'])
+            @vite(['resources/js/components/views/react-test-view/index.tsx'])
         @else
         @endif
     </head>

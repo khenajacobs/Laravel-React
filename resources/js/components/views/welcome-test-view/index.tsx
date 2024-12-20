@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // Updated import for React 18
-import Example from '../example-component/Example';
-import { Header } from '../react-test-page/components/header/Header';
 import { BrowserRouter } from 'react-router-dom';
-import { RoutesProvider } from '../react-test-page/contexts/RoutesContext';
-import { Layout } from '../react-test-page/components/layout/Layout';
+import Example from '../../components/example-component/Example';
+import { Layout } from '../../components/layout/Layout';
+// import { RoutesProvider } from '../react-test-page/contexts/RoutesContext';
 
 const rootElement = document.getElementById('app');
 
@@ -14,11 +13,11 @@ if (rootElement) {
   root.render(
     <React.StrictMode>
       <BrowserRouter>
-      <RoutesProvider>
+      {/* <RoutesProvider> */}
         <Layout>
           <Example />
         </Layout>
-      </RoutesProvider>
+      {/* </RoutesProvider> */}
       </BrowserRouter>
 
     </React.StrictMode>

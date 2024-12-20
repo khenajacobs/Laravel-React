@@ -12,6 +12,14 @@ i18n.use(initReactI18next).init({
           "description": "This is a random view component.",
           "currentCount": "Current count: {{count}}",
           "incrementButton": "Increment"
+        },
+        "reactTestPage": {
+          "title": "React Test Page",
+          "todoList": "Todo List",
+          "id": "ID",
+          "completed": "Completed",
+          "yes": "Yes",
+          "no": "No"
         }
       }
     },
@@ -22,6 +30,14 @@ i18n.use(initReactI18next).init({
           "description": "Dit is een willekeurige weergavecomponent.",
           "currentCount": "Huidige telling: {{count}}",
           "incrementButton": "Verhogen"
+        },
+        "reactTestPage": {
+          "title": "React Test Pagina",
+          "todoList": "Todo Lijst",
+          "id": "ID",
+          "completed": "Voltooid",
+          "yes": "Ja",
+          "no": "Nee"
         }
       }
     },
@@ -32,6 +48,14 @@ i18n.use(initReactI18next).init({
           "description": "Ceci est un composant de vue aléatoire.",
           "currentCount": "Compte actuel: {{count}}",
           "incrementButton": "Incrémenter"
+        },
+        "reactTestPage": {
+          "title": "Page de Test React",
+          "todoList": "Liste de Tâches",
+          "id": "ID",
+          "completed": "Terminé",
+          "yes": "Oui",
+          "no": "Non"
         }
       }
     }

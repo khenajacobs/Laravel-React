@@ -15,15 +15,4 @@
     </nav>
 </header>
 
-<script>
-  function setLanguage(language) {
-    localStorage.setItem('selectedLanguage', language);
-    window.location.reload(); // Reload the page to apply the language change
-  }
-
-  // Set the dropdown to the selected language on page load
-  document.addEventListener('DOMContentLoaded', (event) => {
-    const selectedLanguage = localStorage.getItem('selectedLanguage') || 'en';
-    document.getElementById('language-selector').value = selectedLanguage;
-  });
-</script>
+<script src="{{ asset('js/language-selector.js') }}"></script>
