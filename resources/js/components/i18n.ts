@@ -20,6 +20,18 @@ i18n.use(initReactI18next).init({
           "completed": "Completed",
           "yes": "Yes",
           "no": "No"
+        },
+        "postForm": {
+          "name": "Name",
+          "email": "Email",
+          "message": "Message",
+          "submit": "Submit",
+          "thankYou": "Thank you!",
+          "successMessage": "Your form has been submitted successfully.",
+          "title": "Contact Us",
+          "nameRequired": "Name is required",
+          "emailInvalid": "Invalid email address",
+          "messageRequired": "Message is required"
         }
       }
     },
@@ -38,6 +50,18 @@ i18n.use(initReactI18next).init({
           "completed": "Voltooid",
           "yes": "Ja",
           "no": "Nee"
+        },
+        "postForm": {
+          "name": "Naam",
+          "email": "E-mail",
+          "message": "Bericht",
+          "submit": "Verzenden",
+          "thankYou": "Dank je!",
+          "successMessage": "Uw formulier is succesvol ingediend.",
+          "title": "Contacteer Ons",
+          "nameRequired": "Naam is verplicht",
+          "emailInvalid": "Ongeldig e-mailadres",
+          "messageRequired": "Bericht is verplicht"
         }
       }
     },
@@ -56,6 +80,18 @@ i18n.use(initReactI18next).init({
           "completed": "Terminé",
           "yes": "Oui",
           "no": "Non"
+        },
+        "postForm": {
+          "name": "Nom",
+          "email": "E-mail",
+          "message": "Message",
+          "submit": "Soumettre",
+          "thankYou": "Merci!",
+          "successMessage": "Votre formulaire a été soumis avec succès.",
+          "title": "Contactez Nous",
+          "nameRequired": "Le nom est requis",
+          "emailInvalid": "Adresse e-mail invalide",
+          "messageRequired": "Le message est requis"
         }
       }
     }

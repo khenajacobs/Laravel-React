@@ -10,6 +10,7 @@ export default defineConfig({
                 'resources/js/components/views/welcome-test-view/index.tsx',
                 'resources/js/components/views/react-test-view/index.tsx',
                 'resources/js/components/views/random-view/index.tsx',
+                'resources/js/components/views/post-form-view/index.tsx',
             ],
             refresh: true,
         }),

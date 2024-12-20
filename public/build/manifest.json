@@ -1,45 +1,65 @@
 {
-  "_LanguageContext-OXmU1GtU.js": {
-    "file": "assets/LanguageContext-OXmU1GtU.js",
+  "_LanguageContext-BQeiVAmq.js": {
+    "file": "assets/LanguageContext-BQeiVAmq.js",
     "name": "LanguageContext",
     "imports": [
-      "_Layout-Bs8QFDXl.js"
+      "_client-uoQveROV.js"
     ]
   },
-  "_Layout-Bs8QFDXl.js": {
-    "file": "assets/Layout-Bs8QFDXl.js",
-    "name": "Layout"
+  "_Layout-CBF6Ii1t.js": {
+    "file": "assets/Layout-CBF6Ii1t.js",
+    "name": "Layout",
+    "imports": [
+      "_client-uoQveROV.js"
+    ]
+  },
+  "_client-uoQveROV.js": {
+    "file": "assets/client-uoQveROV.js",
+    "name": "client"
+  },
+  "resources/js/components/views/post-form-view/index.tsx": {
+    "file": "assets/index--4_ZMSRT.js",
+    "name": "index",
+    "src": "resources/js/components/views/post-form-view/index.tsx",
+    "isEntry": true,
+    "imports": [
+      "_client-uoQveROV.js",
+      "_LanguageContext-BQeiVAmq.js"
+    ]
   },
   "resources/js/components/views/random-view/index.tsx": {
-    "file": "assets/index-Dbod94kV.js",
+    "file": "assets/index-DIgBOwcm.js",
     "name": "index",
     "src": "resources/js/components/views/random-view/index.tsx",
     "isEntry": true,
     "imports": [
-      "_Layout-Bs8QFDXl.js",
-      "_LanguageContext-OXmU1GtU.js"
+      "_client-uoQveROV.js",
+      "_Layout-CBF6Ii1t.js",
+      "_LanguageContext-BQeiVAmq.js"
     ]
   },
   "resources/js/components/views/react-test-view/index.tsx": {
-    "file": "assets/index-DkxrrHDP.js",
+    "file": "assets/index-Bq4QsaW0.js",
     "name": "index",
     "src": "resources/js/components/views/react-test-view/index.tsx",
     "isEntry": true,
     "imports": [
-      "_Layout-Bs8QFDXl.js",
-      "_LanguageContext-OXmU1GtU.js"
+      "_client-uoQveROV.js",
+      "_Layout-CBF6Ii1t.js",
+      "_LanguageContext-BQeiVAmq.js"
     ],
     "css": [
       "assets/index-aRXT-3R-.css"
     ]
   },
   "resources/js/components/views/welcome-test-view/index.tsx": {
-    "file": "assets/index-DxNIH2nB.js",
+    "file": "assets/index-B2xhmExl.js",
     "name": "index",
     "src": "resources/js/components/views/welcome-test-view/index.tsx",
     "isEntry": true,
     "imports": [
-      "_Layout-Bs8QFDXl.js"
+      "_client-uoQveROV.js",
+      "_Layout-CBF6Ii1t.js"
     ]
   },
   "resources/sass/app.scss": {

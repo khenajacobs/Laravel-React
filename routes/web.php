@@ -19,6 +19,11 @@ Route::get('/random', function () {
     return view('random');
 });
 
+Route::get('/post-form', function () {
+    return view('post-form');
+});
+
+
 Route::fallback(function () {
     return redirect('/welcome')->with('warning', 'The page you are looking for does not exist.');
 });

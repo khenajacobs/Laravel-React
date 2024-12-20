@@ -11,6 +11,7 @@
             <a href="/welcome" class="mr-4">Welcome</a>
             <a href="/react-test" class="mr-4">React Test</a>
             <a href="/random" class="mr-4">Random View</a>
+            <a href="/post-form" class="mr-4">Post form</a>
         </div>
     </nav>
 </header>
