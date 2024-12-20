@@ -26,12 +26,16 @@ i18n.use(initReactI18next).init({
           "email": "Email",
           "message": "Message",
           "submit": "Submit",
+          "next": "Next",
+          "previous": "Previous",
           "thankYou": "Thank you!",
           "successMessage": "Your form has been submitted successfully.",
           "title": "Contact Us",
           "nameRequired": "Name is required",
           "emailInvalid": "Invalid email address",
-          "messageRequired": "Message is required"
+          "messageRequired": "Message is required",
+          "step1": "Step 1: Personal Information",
+          "step2": "Step 2: Message"
         }
       }
     },
@@ -56,12 +60,16 @@ i18n.use(initReactI18next).init({
           "email": "E-mail",
           "message": "Bericht",
           "submit": "Verzenden",
+          "next": "Volgende",
+          "previous": "Vorige",
           "thankYou": "Dank je!",
           "successMessage": "Uw formulier is succesvol ingediend.",
           "title": "Contacteer Ons",
           "nameRequired": "Naam is verplicht",
           "emailInvalid": "Ongeldig e-mailadres",
-          "messageRequired": "Bericht is verplicht"
+          "messageRequired": "Bericht is verplicht",
+          "step1": "Stap 1: Persoonlijke Informatie",
+          "step2": "Stap 2: Bericht"
         }
       }
     },
@@ -86,12 +94,16 @@ i18n.use(initReactI18next).init({
           "email": "E-mail",
           "message": "Message",
           "submit": "Soumettre",
+          "next": "Suivant",
+          "previous": "Précédent",
           "thankYou": "Merci!",
           "successMessage": "Votre formulaire a été soumis avec succès.",
           "title": "Contactez Nous",
           "nameRequired": "Le nom est requis",
           "emailInvalid": "Adresse e-mail invalide",
-          "messageRequired": "Le message est requis"
+          "messageRequired": "Le message est requis",
+          "step1": "Étape 1: Informations Personnelles",
+          "step2": "Étape 2: Message"
         }
       }
     }

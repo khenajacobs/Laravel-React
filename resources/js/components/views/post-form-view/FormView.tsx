@@ -1,6 +1,7 @@
 // resources/js/components/forms/FormView.tsx
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import Stepper from '../../components/stepper/Stepper';
 import FormComponent from './components/FormComponent';
 import { FormSchema } from './post-form.schema';
 
@@ -35,11 +36,12 @@ const FormView: React.FC = () => {
       {isSubmitted ? (
         <div role="alert" aria-live="assertive" className="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg">
           <h2 className="text-lg font-bold mb-2">{t('postForm.thankYou')}</h2>
-          <p>{t('form.successMessage')}</p>
+          <p>{t('postForm.successMessage')}</p>
         </div>
       ) : (
         <>
           <h1 className="text-2xl font-bold mb-4">{t('postForm.title')}</h1>
+          <Stepper currentStep={1} steps={[{ label: '1', index: 1 }, { label: '2', index: 2 }]} />
           <FormComponent onSubmit={handleSubmit} />
         </>
       )}
