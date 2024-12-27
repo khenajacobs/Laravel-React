@@ -3,8 +3,9 @@ import { initReactI18next } from 'react-i18next';
 import en_translations from './locales/en';
 import nl_translations from './locales/nl';
 import fr_translations from './locales/fr';
+import { FALLBACK_LANGUAGE } from '../defaults';
 
-const selectedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+const selectedLanguage = localStorage.getItem('selectedLanguage') || FALLBACK_LANGUAGE;
 
 i18n.use(initReactI18next).init({
   resources: {
@@ -19,7 +20,7 @@ i18n.use(initReactI18next).init({
     }
   },
   lng: selectedLanguage, // Use the selected language
-  fallbackLng: 'en',
+  fallbackLng: FALLBACK_LANGUAGE, // Fallback to English if the selected language file is missing
   interpolation: {
     escapeValue: false // React already escapes values
   }

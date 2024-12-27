@@ -20,6 +20,7 @@ export const ReactTestView: React.FC = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
   const [loading, setLoading] = useState(true);
 
+  //TODO: Fetch data from a separate service file instead of directly in the component
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/todos')
       .then(response => response.json())

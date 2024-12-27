@@ -1,7 +1,7 @@
 import React from 'react';
 import './ReactTest.component.scss';
 import { useTranslation } from 'react-i18next';
-import '../../i18n';
+import '../../config/i18n';
 
 interface Todo {
   userId: number;
