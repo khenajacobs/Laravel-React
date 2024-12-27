@@ -1,6 +1,6 @@
 {
-  "_LanguageContext-Cp3vs-o2.js": {
-    "file": "assets/LanguageContext-Cp3vs-o2.js",
+  "_LanguageContext-4zfyUhVo.js": {
+    "file": "assets/LanguageContext-4zfyUhVo.js",
     "name": "LanguageContext",
     "imports": [
       "_client-uoQveROV.js"
@@ -18,35 +18,35 @@
     "name": "client"
   },
   "resources/js/components/views/post-form-view/index.tsx": {
-    "file": "assets/index-BofTmBYL.js",
+    "file": "assets/index-fYrmmjYy.js",
     "name": "index",
     "src": "resources/js/components/views/post-form-view/index.tsx",
     "isEntry": true,
     "imports": [
       "_client-uoQveROV.js",
-      "_LanguageContext-Cp3vs-o2.js"
+      "_LanguageContext-4zfyUhVo.js"
     ]
   },
   "resources/js/components/views/random-view/index.tsx": {
-    "file": "assets/index-CCN6DKM0.js",
+    "file": "assets/index-SqFEHjVV.js",
     "name": "index",
     "src": "resources/js/components/views/random-view/index.tsx",
     "isEntry": true,
     "imports": [
       "_client-uoQveROV.js",
       "_Layout-CBF6Ii1t.js",
-      "_LanguageContext-Cp3vs-o2.js"
+      "_LanguageContext-4zfyUhVo.js"
     ]
   },
   "resources/js/components/views/react-test-view/index.tsx": {
-    "file": "assets/index-DJaxzxgj.js",
+    "file": "assets/index-DLl6Kc2-.js",
     "name": "index",
     "src": "resources/js/components/views/react-test-view/index.tsx",
     "isEntry": true,
     "imports": [
       "_client-uoQveROV.js",
       "_Layout-CBF6Ii1t.js",
-      "_LanguageContext-Cp3vs-o2.js"
+      "_LanguageContext-4zfyUhVo.js"
     ],
     "css": [
       "assets/index-aRXT-3R-.css"
